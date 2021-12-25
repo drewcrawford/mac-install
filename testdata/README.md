@@ -1,0 +1,1 @@
+pkgbuild --install-location /tmp --component /path/to/DummyApp.app test.pkg

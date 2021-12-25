@@ -1,0 +1,13 @@
+[package]
+name = "mac-install"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+command-rs = {git = "https://github.com/drewcrawford/command-rs",features=["sudo"]}
+kiruna = {git = "https://github.com/drewcrawford/kiruna", features=["io_stream"]}
+
+[dev-dependencies]
+kiruna = {git = "https://github.com/drewcrawford/kiruna", features = ["test"]}
